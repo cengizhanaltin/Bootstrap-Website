@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap-Starter-Template</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.scss"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <section
+        id="top_header"
+        class="bg-primary py-3 text-white d-none d-md-block"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 pt-2">
+              <h6><i class="bi bi-phone me-2"></i>+123 456 789</h6>
+            </div>
+            <div class="col-md-4 pt-2">
+              <h6 class="h6">
+                <i class="bi bi-envelope me-2"></i>user@domainmail.com
+              </h6>
+            </div>
+            <div class="col-md-4 text-end">
+              <a
+                href="#"
+                class="btn btn-primary text-white"
+                style="background-color: #1877f2"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-primary text-white"
+                style="background-color: #c901e9"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-primary text-white"
+                style="background-color: #55acee"
+              >
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a
+                href="#"
+                class="btn btn-primary text-white"
+                style="background-color: #0082ca"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <nav
+        class="navbar navbar-expand-lg py-3 sticky-top bg-secondary navbar-dark"
+      >
+        <div class="container">
+          <a href="#" class="navbar-brand">Learn Code</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toogle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navmenu" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+              <li class="nav-item">
+                <a href="#hero_area" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="nav-link">Team</a>
+              </li>
+              <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+              <li class="nav-item">
+                <a href="#analysis" class="nav-link">Analysis</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="hero_area" class="py-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <h3 class="">Let's Learn Coding</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+              commodi quis architecto rerum exercitationem tempore dicta
+              molestiae quasi alias eius.
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#join"
+            >
+              Join Now
+            </button>
+
+            <div class="modal fade" id="join">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark">Join Now!</h5>
+                    <button
+                      type="button"
+                      class="btn btn-close"
+                      data-bs-dismiss="modal"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <p>Fill out this form</p>
+                    <form>
+                      <label class="form-label" for="name">Name</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="name"
+                        id="name"
+                        placeholder="Enter Your Name"
+                      />
+                      <label class="form-label" for="mail">Mail</label>
+                      <input
+                        class="form-control"
+                        type="email"
+                        name="mail"
+                        id="mail"
+                        placeholder="Enter Your Mail"
+                      />
+                      <label class="form-label" for="phone">Phone</label>
+                      <input
+                        class="form-control"
+                        type="text"
+                        name="phone"
+                        id="phone"
+                        placeholder="Enter Your Phone"
+                      />
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Send message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pt-4">
+            <img src="/img/coder.svg" class="img-fluid" alt="coder" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="Services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi bi-gear m-auto d-block btn-outline-primary pt-2 my-3"
+                ></i>
+                <h4>Easy to Use</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+                  repellat vel consequatur, obcaecati doloribus aspernatur illo
+                  ab repellendus odit debitis.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi bi-graph-up-arrow m-auto d-block btn-outline-primary pt-2 my-3"
+                ></i>
+                <h4>Awesome Desing</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+                  repellat vel consequatur, obcaecati doloribus aspernatur illo
+                  ab repellendus odit debitis.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 text-center mb-3">
+            <div class="card">
+              <div class="card-body">
+                <i
+                  class="bi bi-people m-auto d-block btn-outline-primary pt-2 my-3"
+                ></i>
+                <h4>Easy to Customize</h4>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit
+                  repellat vel consequatur, obcaecati doloribus aspernatur illo
+                  ab repellendus odit debitis.
+                </p>
+                <a href="#" class="btn btn-primary">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="analysis" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 pt-5">
+            <img src="/img/Investing.svg" alt="investing" class="img-fluid" />
+          </div>
+          <div class="col-md-6 align-self-center mt-3">
+            <h3>Analysis for Business Opportunities</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              labore ratione illo ipsa ut repellat ex tempora? Esse quasi nobis
+              distinctio et ab? At porro asperiores vel facere, corrupti
+              consectetur.
+            </p>
+            <a href="#" class="btn btn-primary">See more Information</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="py-5">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col-md-8 offset-md-2">
+            <h2>Our Team</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+              tempore quae, repellat nobis id odio.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="/img/team_01.jpg" alt="team" class="img-fluid mb-3" />
+                <h5 class="card-title">David Clark</h5>
+                <p class="card-text">Graphic Designer</p>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="/img/team_02.jpg" alt="team" class="img-fluid mb-3" />
+                <h5 class="card-title">John Clark</h5>
+                <p class="card-text">Web Designer</p>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <div class="card-body text-center">
+                <img src="/img/team_03.jpg" alt="team" class="img-fluid mb-3" />
+                <h5 class="card-title">Kevın Clark</h5>
+                <p class="card-text">Web Developer</p>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" class="btn btn-primary"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mb-3">
+            <img src="/img/faq.svg" alt="faq" class="img-fluid mb-5" />
+          </div>
+          <div class="col-md-7 align-self-center pt-2">
+            <h2>FAQ Area</h2>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h2>Accordion Body #03</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta porro itaque, in cum voluptatum aspernatur sapiente
+                      magni similique, consectetur, excepturi quis maxime
+                      aliquam deleniti officiis illum dolorem optio doloremque
+                      minus!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h2>Accordion Body #02</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta porro itaque, in cum voluptatum aspernatur sapiente
+                      magni similique, consectetur, excepturi quis maxime
+                      aliquam deleniti officiis illum dolorem optio doloremque
+                      minus!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <h2>Accordion Body #03</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Soluta porro itaque, in cum voluptatum aspernatur sapiente
+                      magni similique, consectetur, excepturi quis maxime
+                      aliquam deleniti officiis illum dolorem optio doloremque
+                      minus!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2>Contact Us</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio,
+              dolor.
+            </p>
+            <form class="py-3 text-start">
+              <div class="row mb-3">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    placeholder="Enter your Name "
+                    class="form-control"
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="email"
+                    placeholder="Enter your Email"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Subject"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your Message"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <button type="button" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24094.942653869988!2d28.700672556859864!3d40.984374863270546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa1b2e7daed2f%3A0x589d5ac8cff63eda!2zQXZjxLFsYXIsIMSwc3RhbmJ1bA!5e0!3m2!1str!2str!4v1692398168173!5m2!1str!2str"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pt-4 pb-2 bg-secondary text-white text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2023 All Right Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
